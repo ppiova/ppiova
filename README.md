@@ -61,6 +61,9 @@ Enterprise-grade Azure OpenAI auth with Entra ID — production-ready patterns.
 🔹 **[AI-Custom-Avatar](https://github.com/ppiova/AI-Custom-Avatar)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/AI-Custom-Avatar?style=flat&label=%E2%98%85)
 Azure AI Avatar Agent on .NET 10 + Blazor + .NET Aspire — Speech-to-Text, Azure OpenAI and a talking avatar with synchronized lip-sync. Built with [Bruno Capuano](https://github.com/elbruno).
 
+🔹 **[mcp-servers-microsoft-ecosystem](https://github.com/ppiova/mcp-servers-microsoft-ecosystem)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/mcp-servers-microsoft-ecosystem?style=flat&label=%E2%98%85)
+Community-curated catalog of **MCP servers** across the Microsoft ecosystem (Azure, M365, Fabric, Power Platform, GitHub, Copilot Studio) — complements the official [`microsoft/mcp`](https://github.com/microsoft/mcp) with community implementations, clients, starters and security guidance.
+
 ### 🐳 Docker-first series — Microsoft Agent Framework
 
 🔹 **[agent-framework-devcontainer](https://github.com/ppiova/agent-framework-devcontainer)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/agent-framework-devcontainer?style=flat&label=%E2%98%85)
