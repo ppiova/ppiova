@@ -239,11 +239,11 @@ Regular speaker at **Microsoft Reactor**, Microsoft Ignite, Microsoft Build and 
    Covered Microsoft Ignite 2025 highlights and a live deep dive of the [AI-Custom-Avatar](https://github.com/ppiova/AI-Custom-Avatar) project — Azure AI Avatar on .NET 10 + Blazor + Aspire.
 
 ### Community & Conferences
-- 🎤 [**Global AI Bootcamp 2025 — Buenos Aires Keynote**](https://www.youtube.com/live/8_t0GO-PJgk) — 2025
-- 🎤 [**Global AI Bootcamp 2025 — Rosario · MCP: Model Context Protocol**](https://www.youtube.com/watch?v=2wgiWC4l7Cw) — 2025
 - 🎤 [**AgentCon Córdoba**](https://www.linkedin.com/posts/ppiova_ai-agents-azure-activity-7374822413731082240-yi98) · Co-organizer & speaker — 2025
-- 🎤 [**VS Code Dev Day Buenos Aires**](https://www.linkedin.com/posts/ppiova_vscodedevday-azureai-avatar-activity-7372898167958265856-1MCJ) · Co-organizer & speaker — 2025
-- 🎤 [**Microsoft AI Workshop — Make AI Agents Work for You**](https://followoz.com/oz_events/microsoft-ai-workshop-make-ai-agents-work-for-you/) — 2025
+- 🎤 [**Global AI Bootcamp 2025 — Buenos Aires Keynote**](https://www.youtube.com/live/8_t0GO-PJgk) — 2025
+- 🎤 [**VS Code Dev Day - Sunchales**](https://www.linkedin.com/posts/ppiova_vscodedevday-ai-githubcopilot-activity-7377780692564406272-b9nv)  · Co-organizer & speaker — 2025
+- 🎤 [**VS Code Dev Day Buenos Aires**](https://www.linkedin.com/posts/ppiova_vscodedevday-azureai-avatar-activity-7372898167958265856-1MCJ) · Speaker — 2025
+- 🎤 [**Microsoft AI Workshop — Make AI Agents Work for You**](https://followoz.com/oz_events/microsoft-ai-workshop-make-ai-agents-work-for-you/) Speaker — 2025
 
 ---
 
