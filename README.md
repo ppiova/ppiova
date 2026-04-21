@@ -46,6 +46,9 @@ Building AI agents, enterprise GenAI and containerized developer tooling with **
 
 ## Featured Work
 
+🔹 **[mcp-servers-microsoft-ecosystem](https://github.com/ppiova/mcp-servers-microsoft-ecosystem)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/mcp-servers-microsoft-ecosystem?style=flat&label=%E2%98%85)
+Community-curated catalog of **MCP servers** across the Microsoft ecosystem (Azure, M365, Fabric, Power Platform, GitHub, Copilot Studio) — complements the official [`microsoft/mcp`](https://github.com/microsoft/mcp) with community implementations, clients, starters and security guidance.
+
 🔹 **[AgentFrameworkDemos](https://github.com/ppiova/AgentFrameworkDemos)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/AgentFrameworkDemos?style=flat&label=%E2%98%85)
 AI agents, orchestration and real-world patterns with Microsoft Agent Framework on .NET.
 
@@ -61,8 +64,6 @@ Enterprise-grade Azure OpenAI auth with Entra ID — production-ready patterns.
 🔹 **[AI-Custom-Avatar](https://github.com/ppiova/AI-Custom-Avatar)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/AI-Custom-Avatar?style=flat&label=%E2%98%85)
 Azure AI Avatar Agent on .NET 10 + Blazor + .NET Aspire — Speech-to-Text, Azure OpenAI and a talking avatar with synchronized lip-sync. Built with [Bruno Capuano](https://github.com/elbruno).
 
-🔹 **[mcp-servers-microsoft-ecosystem](https://github.com/ppiova/mcp-servers-microsoft-ecosystem)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/mcp-servers-microsoft-ecosystem?style=flat&label=%E2%98%85)
-Community-curated catalog of **MCP servers** across the Microsoft ecosystem (Azure, M365, Fabric, Power Platform, GitHub, Copilot Studio) — complements the official [`microsoft/mcp`](https://github.com/microsoft/mcp) with community implementations, clients, starters and security guidance.
 
 ### 🐳 Docker-first series — Microsoft Agent Framework
 
@@ -72,8 +73,6 @@ Single-agent starter. Multi-stage Dockerfile (Alpine, non-root), Dev Container /
 🔹 **[mcp-docker-starter](https://github.com/ppiova/mcp-docker-starter)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/mcp-docker-starter?style=flat&label=%E2%98%85)
 Polyglot compose: Python **FastMCP** server + .NET Agent Framework client, connected via SSE over a private bridge network. Service discovery, healthchecks, non-root everywhere.
 
-🔹 **[ai-agents-compose-stack](https://github.com/ppiova/ai-agents-compose-stack)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/ai-agents-compose-stack?style=flat&label=%E2%98%85)
-Multi-agent Researcher→Writer workflow with full **OpenTelemetry** (traces + metrics + logs) shipped to a containerized **Aspire Dashboard**.
 
 ---
 
