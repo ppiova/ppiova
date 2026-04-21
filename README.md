@@ -58,8 +58,8 @@ End-to-end MCP server illustrating real-world tool workflows.
 🔹 **[AzureOpenAI-EntraID-ConsoleApp](https://github.com/ppiova/AzureOpenAI-EntraID-ConsoleApp)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/AzureOpenAI-EntraID-ConsoleApp?style=flat&label=%E2%98%85)
 Enterprise-grade Azure OpenAI auth with Entra ID — production-ready patterns.
 
-🔹 **[Custom-Copilot-Demo](https://github.com/ppiova/Custom-Copilot-Demo)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/Custom-Copilot-Demo?style=flat&label=%E2%98%85)
-Patterns for building custom copilots and Copilot Studio extensions.
+🔹 **[AI-Custom-Avatar](https://github.com/ppiova/AI-Custom-Avatar)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/AI-Custom-Avatar?style=flat&label=%E2%98%85)
+Azure AI Avatar Agent on .NET 10 + Blazor + .NET Aspire — Speech-to-Text, Azure OpenAI and a talking avatar with synchronized lip-sync. Built with [Bruno Capuano](https://github.com/elbruno).
 
 ### 🐳 Docker-first series — Microsoft Agent Framework
 
