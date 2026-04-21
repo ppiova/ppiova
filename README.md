@@ -149,10 +149,10 @@ Regular speaker at **Microsoft Reactor**, Microsoft Ignite, Microsoft Build and 
 
 📝 Recent articles:
 - [Workflows en Microsoft Foundry](https://dev.to/ppiova/workflows-en-microsoft-foundry-1e5k) — `dev.to`
-- [Azure Computer Vision Image Analysis is Retiring — What Actually Changes](https://www.linkedin.com/pulse/azure-computer-vision-image-analysis-retiring-actually-pablo-piovano-6jcff) — LinkedIn Pulse
+- [🔔 You're probably already using Responses API, you just don't know it yet](https://www.linkedin.com/pulse/youre-probably-already-using-responses-api-you-just-dont-piovano-hwpmf/) — LinkedIn Pulse
 - [Microsoft Foundry & Agent Framework — Technical deep dive](https://www.linkedin.com/posts/ppiova_microsoftfoundry-responsesapi-microsoftagentframework-activity-7433603187938365440-91q1/)
 
-Full technical series on **[dev.to](https://dev.to/ppiova)** and **[LinkedIn](https://www.linkedin.com/in/ppiova/recent-activity/all/)** — covering Azure AI, Agents, MCP, Foundry and containerized AI.
+Full technical series on **[dev.to](https://dev.to/ppiova)** and **[LinkedIn](https://www.linkedin.com/in/ppiova/recent-activity/articles/)** — covering Azure AI, Agents, MCP, Foundry and containerized AI.
 
 ---
 
