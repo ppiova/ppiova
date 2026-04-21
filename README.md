@@ -61,7 +61,16 @@ Enterprise-grade Azure OpenAI auth with Entra ID — production-ready patterns.
 🔹 **[Custom-Copilot-Demo](https://github.com/ppiova/Custom-Copilot-Demo)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/Custom-Copilot-Demo?style=flat&label=%E2%98%85)
 Patterns for building custom copilots and Copilot Studio extensions.
 
-> 🚧 Coming soon — Docker-first samples: `mcp-docker-starter`, `agent-framework-devcontainer`, `ai-agents-compose-stack`.
+### 🐳 Docker-first series — Microsoft Agent Framework
+
+🔹 **[agent-framework-devcontainer](https://github.com/ppiova/agent-framework-devcontainer)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/agent-framework-devcontainer?style=flat&label=%E2%98%85)
+Single-agent starter. Multi-stage Dockerfile (Alpine, non-root), Dev Container / Codespaces ready, `docker compose up` and you're running.
+
+🔹 **[mcp-docker-starter](https://github.com/ppiova/mcp-docker-starter)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/mcp-docker-starter?style=flat&label=%E2%98%85)
+Polyglot compose: Python **FastMCP** server + .NET Agent Framework client, connected via SSE over a private bridge network. Service discovery, healthchecks, non-root everywhere.
+
+🔹 **[ai-agents-compose-stack](https://github.com/ppiova/ai-agents-compose-stack)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/ai-agents-compose-stack?style=flat&label=%E2%98%85)
+Multi-agent Researcher→Writer workflow with full **OpenTelemetry** (traces + metrics + logs) shipped to a containerized **Aspire Dashboard**.
 
 ---
 
