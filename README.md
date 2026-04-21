@@ -64,7 +64,7 @@ cosign verify ghcr.io/ppiova/<image>:latest \
 | 🏅 **Microsoft MVP in AI** | [Public profile](https://mvp.microsoft.com/en-us/PublicProfile/5004753) — MVP since 2022 |
 | 📘 **Author** | [AI-102 Certification Guide](https://a.co/d/0hJv775S) — Amazon |
 | 🎤 **Community Leader** | Organizer at [.NET Baires](https://www.meetup.com/es-es/net-baires/) — one of LATAM's largest .NET communities |
-| 💼 **Director of AI** | OZ Digital Consulting — leading the AI Center of Excellence |
+| 💼 **Director of AI** | [OZ Digital Consulting](https://followoz.com/) — leading the AI Center of Excellence |
 
 ---
 
