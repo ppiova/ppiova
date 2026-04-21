@@ -99,7 +99,8 @@ Regular speaker at **Microsoft Reactor**, Microsoft Ignite, Microsoft Build and 
 - 🎙️ [**Carrera y tecnología: AI (Panel)**](https://www.youtube.com/live/ItIRwZvQAJE) — 2023
 
 ### Microsoft Ignite & Build
-- 🧪 **Lab Proctor** — Microsoft Build 2025 · [LAB324: Azure AI Foundry](https://www.linkedin.com/posts/lbugnion_so-this-week-was-intense-ugcPost-7332058589684989952-shPZ)
+- 🧪 **Lab Proctor** — Microsoft Ignite 2025 · [LAB324: Azure AI Foundry](https://www.linkedin.com/posts/ppiova_msignite-microsoftfoundry-aiagents-activity-7397466189163065344-SpNC/)
+- 🧪 **Lab Proctor** — Microsoft Build 2025 · [LAB324: Azure AI Foundry](https://www.linkedin.com/posts/lbugnion_so-this-week-was-intense-my-team-produced-activity-7332058591065018369-JmU2/)
 - 🧪 **Lab Proctor** — Microsoft Ignite 2024 · [LAB402-R1: Multimodal Generative AI](https://www.linkedin.com/posts/aliciamoniz_msignite-ugcPost-7265116994973179905-VssH)
 - Contributor — [Microsoft Build 2025](https://build.microsoft.com) · [Microsoft Ignite 2025](https://ignite.microsoft.com)
 
