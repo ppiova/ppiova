@@ -4,7 +4,7 @@
 
 ### Microsoft MVP in AI · Director of AI · Community Leader · Author
 
-Building AI agents, enterprise GenAI and containerized developer tooling with **Azure AI**, **Microsoft Foundry**, **MCP** and **Docker**.
+Shipping AI agents, enterprise GenAI and **signed, multi-arch, SBOM-attested container images** — built on **Azure AI**, **Microsoft Foundry**, **MCP** and **Docker**.
 
 [![Microsoft MVP](https://img.shields.io/badge/Microsoft-MVP_in_AI-0078D4?logo=microsoft&logoColor=white)](https://mvp.microsoft.com/en-us/PublicProfile/5004753)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Pablo_Piovano-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ppiova/)
@@ -12,20 +12,70 @@ Building AI agents, enterprise GenAI and containerized developer tooling with **
 [![dev.to](https://img.shields.io/badge/dev.to-ppiova-0A0A0A?logo=devdotto&logoColor=white)](https://dev.to/ppiova)
 [![Meetup](https://img.shields.io/badge/Meetup-.NET_Baires-ED1C40?logo=meetup&logoColor=white)](https://www.meetup.com/es-es/net-baires/)
 [![Book](https://img.shields.io/badge/Book-AI_102_Guide-FF9900?logo=amazon&logoColor=white)](https://a.co/d/0hJv775S)
+[![GHCR](https://img.shields.io/badge/GHCR-ppiova-2496ED?logo=github&logoColor=white)](https://github.com/ppiova?tab=packages)
 [![Profile views](https://komarev.com/ghpvc/?username=ppiova&label=Profile+views&color=0e75b6&style=flat)](https://github.com/ppiova)
 
 </div>
 
 ---
 
+> **Mission.** Make enterprise-grade AI samples that teams can _actually_ trust: reproducible, auditable, signed. No "works on my laptop" — everything ships as a multi-arch OCI image with SBOM and SLSA provenance, so security reviews become a one-liner.
+
+---
+
+## ⚡ Try it in 30 seconds
+
+```bash
+docker run --rm -p 8080:8080 ghcr.io/ppiova/mcp-docker-starter:latest
+# then open http://localhost:8080
+```
+
+Every image below can be verified end-to-end:
+
+```bash
+cosign verify ghcr.io/ppiova/<image>:latest \
+  --certificate-identity-regexp 'https://github.com/ppiova/.+' \
+  --certificate-oidc-issuer 'https://token.actions.githubusercontent.com'
+```
+
+---
+
+<div align="center">
+
+### 🚢 Shipping in the open
+
+**8 featured repos** · **7 signed images on GHCR** · **SBOM + SLSA provenance** · **multi-arch (amd64 / arm64)**
+
+![GHCR](https://img.shields.io/badge/GHCR-published-2496ED?logo=github&logoColor=white)
+![SBOM](https://img.shields.io/badge/SBOM-SPDX-4C1?logo=linuxfoundation&logoColor=white)
+![Provenance](https://img.shields.io/badge/SLSA-provenance-1E90FF?logo=slsa&logoColor=white)
+![Multi-arch](https://img.shields.io/badge/multi--arch-amd64_%7C_arm64-0db7ed?logo=docker&logoColor=white)
+![Signed](https://img.shields.io/badge/cosign-signed-000?logo=sigstore&logoColor=white)
+![CI](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
+
+</div>
+
+---
+
+## 🏆 Recognition
+
+| | |
+|---|---|
+| 🏅 **Microsoft MVP in AI** | [Public profile](https://mvp.microsoft.com/en-us/PublicProfile/5004753) — MVP since 2022 |
+| 📘 **Author** | [AI-102 Certification Guide](https://a.co/d/0hJv775S) — Amazon |
+| 🎤 **Community Leader** | Organizer at [.NET Baires](https://www.meetup.com/es-es/net-baires/) — one of LATAM's largest .NET communities |
+| 💼 **Director of AI** | OZ Digital Consulting — leading the AI Center of Excellence |
+
+---
+
 ## What I Build
 
-- AI agents and orchestration patterns
-- Enterprise Generative AI solutions
-- MCP-based developer workflows
-- Azure AI and Microsoft Foundry samples
-- Containerized AI tooling and devcontainers
-- Cloud-native AI applications
+- AI agents, orchestration and multi-agent patterns
+- Enterprise Generative AI on Azure AI and Microsoft Foundry
+- MCP servers and developer workflows
+- **Containerized AI tooling** — devcontainers, compose stacks, signed OCI images
+- **Secure software supply chain for AI**: SBOMs, SLSA provenance, reproducible CI
+- Reference implementations that scale from demo to production
 
 ---
 
@@ -38,8 +88,12 @@ Building AI agents, enterprise GenAI and containerized developer tooling with **
 ![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white)
 ![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?logo=microsoft&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Compose](https://img.shields.io/badge/Docker_Compose-2496ED?logo=docker&logoColor=white)
+![Buildx](https://img.shields.io/badge/Buildx-multi--arch-2496ED?logo=docker&logoColor=white)
+![Devcontainers](https://img.shields.io/badge/Devcontainers-007ACC?logo=visualstudiocode&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
+![Cosign](https://img.shields.io/badge/Cosign-000?logo=sigstore&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-000000?logoColor=white)
 
 ---
@@ -73,6 +127,57 @@ Single-agent starter. Multi-stage Dockerfile (Alpine, non-root), Dev Container /
 🔹 **[mcp-docker-starter](https://github.com/ppiova/mcp-docker-starter)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/mcp-docker-starter?style=flat&label=%E2%98%85)
 Polyglot compose: Python **FastMCP** server + .NET Agent Framework client, connected via SSE over a private bridge network. Service discovery, healthchecks, non-root everywhere.
 
+
+---
+
+## 🔐 Container Supply Chain
+
+Every image on **[ghcr.io/ppiova](https://github.com/ppiova?tab=packages)** ships with:
+
+| Guarantee | How |
+|---|---|
+| **Multi-arch** | `docker buildx` — `linux/amd64` + `linux/arm64` |
+| **SBOM** | SPDX attestation attached (`docker buildx --sbom=true`) |
+| **Provenance** | SLSA build provenance (`--provenance=mode=max`) |
+| **Signed** | Keyless `cosign` via GitHub OIDC |
+| **Reproducible** | Pinned bases, deterministic builds in GitHub Actions |
+
+### Published images
+
+| # | Image | Source |
+|---|---|---|
+| 1 | `ghcr.io/ppiova/agentframeworkdemos` | [AgentFrameworkDemos](https://github.com/ppiova/AgentFrameworkDemos) |
+| 2 | `ghcr.io/ppiova/agentfx-mcp-microsoftlearn` | [AgentFX-MCP-MicrosoftLearn](https://github.com/ppiova/AgentFX-MCP-MicrosoftLearn) |
+| 3 | `ghcr.io/ppiova/travelmcp` | [TravelMCP](https://github.com/ppiova/TravelMCP) |
+| 4 | `ghcr.io/ppiova/azureopenai-entraid-consoleapp` | [AzureOpenAI-EntraID-ConsoleApp](https://github.com/ppiova/AzureOpenAI-EntraID-ConsoleApp) |
+| 5 | `ghcr.io/ppiova/ai-custom-avatar` | [AI-Custom-Avatar](https://github.com/ppiova/AI-Custom-Avatar) |
+| 6 | `ghcr.io/ppiova/agent-framework-devcontainer` | [agent-framework-devcontainer](https://github.com/ppiova/agent-framework-devcontainer) |
+| 7 | `ghcr.io/ppiova/mcp-docker-starter` | [mcp-docker-starter](https://github.com/ppiova/mcp-docker-starter) |
+
+<details>
+<summary>🔎 <b>Inspect any image</b></summary>
+
+```bash
+# Manifest + attestations
+docker buildx imagetools inspect ghcr.io/ppiova/<image>:latest --format '{{ json . }}'
+
+# SBOM
+docker buildx imagetools inspect ghcr.io/ppiova/<image>:latest \
+  --format '{{ json .SBOM }}'
+
+# Provenance
+docker buildx imagetools inspect ghcr.io/ppiova/<image>:latest \
+  --format '{{ json .Provenance }}'
+
+# Signature verification
+cosign verify ghcr.io/ppiova/<image>:latest \
+  --certificate-identity-regexp 'https://github.com/ppiova/.+' \
+  --certificate-oidc-issuer 'https://token.actions.githubusercontent.com'
+```
+
+</details>
+
+> **Why this matters.** Enterprises can't deploy unsigned samples. Shipping every image with SBOM + provenance turns "interesting demo" into "something I can put a ticket on."
 
 ---
 
@@ -149,6 +254,9 @@ Regular speaker at **Microsoft Reactor**, Microsoft Ignite, Microsoft Build and 
 📝 Recent articles:
 - [Workflows en Microsoft Foundry](https://dev.to/ppiova/workflows-en-microsoft-foundry-1e5k) — `dev.to`
 - [🔔 You're probably already using Responses API, you just don't know it yet](https://www.linkedin.com/pulse/youre-probably-already-using-responses-api-you-just-dont-piovano-hwpmf/) — LinkedIn Pulse
+- [Azure OpenAI Realtime API + VoiceRAG](https://www.linkedin.com/pulse/azure-openai-realtime-api-voicerag-pablo-piovano-jgnmf) — LinkedIn Pulse
+- [Azure OpenAI: Retiring GPT-4o (2024-05-13 & 2024-08-06) — What to Do](https://www.linkedin.com/pulse/azure-openai-retiring-gpt-4o-2024-05-13-2024-08-06-what-pablo-piovano-miolf) — LinkedIn Pulse
+- [Azure Computer Vision Image Analysis: Retiring — What Actually Changes](https://www.linkedin.com/pulse/azure-computer-vision-image-analysis-retiring-actually-pablo-piovano-6jcff/) — LinkedIn Pulse
 - [Microsoft Foundry & Agent Framework — Technical deep dive](https://www.linkedin.com/posts/ppiova_microsoftfoundry-responsesapi-microsoftagentframework-activity-7433603187938365440-91q1/)
 
 Full technical series on **[dev.to](https://dev.to/ppiova)** and **[LinkedIn](https://www.linkedin.com/in/ppiova/recent-activity/articles/)** — covering Azure AI, Agents, MCP, Foundry and containerized AI.
@@ -163,6 +271,18 @@ Contributor to Microsoft and community OSS projects around AI and Agents, includ
 - [`microsoft/ai-agents-for-beginners`](https://github.com/microsoft/ai-agents-for-beginners)
 - [`github/awesome-copilot`](https://github.com/github/awesome-copilot)
 - [`microsoft/edgeai-for-beginners`](https://github.com/microsoft/edgeai-for-beginners)
+
+---
+
+## 🎓 Workshops & Engagements
+
+Available for:
+
+- **Hands-on workshops** — Azure AI Foundry · Agent Framework · MCP · Docker supply chain for AI
+- **Conference talks & keynotes** — GenAI, Agents, secure container delivery
+- **Advisory** — enterprise GenAI adoption, AI Center of Excellence setup
+
+📫 **Reach out:** [LinkedIn](https://www.linkedin.com/in/ppiova/) · [X / Twitter](https://twitter.com/ppiova)
 
 ---
 
@@ -193,7 +313,7 @@ Focused on making AI practical and usable for real-world applications.
 
 ## Focus Areas
 
-`AI Agents` `GenAI` `Azure AI` `Microsoft Foundry` `MCP` `RAG` `Docker` `Containers` `Open Source`
+`AI Agents` `GenAI` `Azure AI` `Microsoft Foundry` `MCP` `RAG` `Docker` `Containers` `Supply Chain Security` `SBOM` `SLSA` `cosign` `Open Source`
 
 ---
 
@@ -206,6 +326,7 @@ Focused on making AI practical and usable for real-world applications.
 [![X](https://img.shields.io/badge/X-@ppiova-000000?logo=x&logoColor=white)](https://twitter.com/ppiova)
 [![dev.to](https://img.shields.io/badge/dev.to-ppiova-0A0A0A?logo=devdotto&logoColor=white)](https://dev.to/ppiova)
 [![Meetup](https://img.shields.io/badge/.NET_Baires-Organizer-ED1C40?logo=meetup&logoColor=white)](https://www.meetup.com/es-es/net-baires/)
+[![GHCR](https://img.shields.io/badge/GHCR-ppiova-2496ED?logo=github&logoColor=white)](https://github.com/ppiova?tab=packages)
 [![Book](https://img.shields.io/badge/AI_102_Book-Amazon-FF9900?logo=amazon&logoColor=white)](https://a.co/d/0hJv775S)
 
 </div>
