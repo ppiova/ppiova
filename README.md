@@ -92,14 +92,37 @@ Multi-agent Researcher→Writer workflow with full **OpenTelemetry** (traces + m
 Regular speaker at **Microsoft Reactor**, Microsoft Ignite, Microsoft Build and community events across LATAM. A selection:
 
 ### Microsoft Reactor
+
+**🎤 Speaker — featured sessions**
 - 🎙️ [**GitHub Copilot CLI & AI Agents**](https://www.youtube.com/watch?v=3lkcGkG8Vxg) — 2026
-- 🎙️ [**Lo mejor de Microsoft Build 2025**](https://www.youtube.com/live/9X3F7GJZhz8) — 2026
-- 🎙️ [**Crea tus propios Agentes de IA con Azure AI Foundry**](https://www.youtube.com/watch?v=dklTcCMSLsU) — 2026
 - 🎙️ [**Innovaciones clave en Microsoft Fabric & Microsoft Foundry**](https://www.youtube.com/watch?v=lKeGHSiPMw0) — 2026
-- 🎙️ [**Introducción al Agent Framework y agentes individuales**](https://developer.microsoft.com/en-us/reactor/events/26463/) — 2025
-- 🎙️ [**VS Code Dev Days LATAM**](https://www.youtube.com/watch?v=O7jFJ38PQsQ) — 2025
-- 🎙️ [**Los Fundamentos de la IA Generativa en Azure**](https://www.youtube.com/watch?v=L1WvaVA4ftc) — 2025
-- 🎙️ [**Carrera y tecnología: AI (Panel)**](https://www.youtube.com/live/ItIRwZvQAJE) — 2023
+- 🎙️ [**Crea tus propios Agentes de IA con Azure AI Foundry**](https://www.youtube.com/watch?v=dklTcCMSLsU) — 2026
+- 🎙️ [**Lo mejor de Microsoft Build 2025**](https://www.youtube.com/live/9X3F7GJZhz8) — 2026
+- 🎙️ [**Integración de MCP con LLMs**](https://reactor.microsoft.com/es-es/reactor/events/26167/) — 2025
+
+**🧠 Sessions & contributor**
+
+*Agentes & AI avanzada*
+- 🤖 [**Introducción al Agent Framework y agentes individuales**](https://developer.microsoft.com/en-us/reactor/events/26463/) — 2025
+- 🤖 [**Del Dato a la Inteligencia — Fabric + Foundry + Agents**](https://developer.microsoft.com/en-us/reactor/events/26004/) — 2025
+- 🤖 [**Crea tus propios agentes (edición Reactor)**](https://developer.microsoft.com/en-us/reactor/events/25754/) — 2025
+
+*Fundamentos de IA Generativa*
+- 📘 [**Generative AI on Azure — The Fundamentals**](https://developer.microsoft.com/en-us/reactor/events/25063/) — 2025
+- 📘 [**La base de la IA Generativa en Azure**](https://www.youtube.com/live/SQILlf0wkaY) — 2025
+- 📘 [**Los Fundamentos de la IA Generativa en Azure**](https://www.youtube.com/watch?v=L1WvaVA4ftc) — 2025
+
+*IA + .NET — Reactor LATAM series*
+- 🧩 [**IA y .NET LATAM — Episodio 2**](https://www.youtube.com/live/kOLJlpqIO2o) — 2025
+- 🧩 [**IA y .NET LATAM — Episodio 4**](https://www.youtube.com/live/jeC3VZLoJWU) — 2025
+
+*Dev & AI tooling*
+- 🛠️ [**VS Code Dev Days LATAM**](https://www.youtube.com/watch?v=O7jFJ38PQsQ) — 2025
+- 🛠️ [**Trucos para automatizar tus proyectos con GitHub**](https://developer.microsoft.com/es-es/reactor/events/22779/) — 2024
+
+*Series & panels*
+- 📚 [**Season of AI for Developers (serie completa)**](https://techcommunity.microsoft.com/blog/educatordeveloperblog/season-of-ai-for-developers/4226639) — contributor
+- 🎛️ [**Carrera y tecnología: AI (Panel)**](https://www.youtube.com/live/ItIRwZvQAJE) — 2023
 
 ### Microsoft Ignite & Build
 - 🧪 **Lab Proctor** — Microsoft Ignite 2025 · [LAB324: Azure AI Foundry](https://www.linkedin.com/posts/ppiova_msignite-microsoftfoundry-aiagents-activity-7397466189163065344-SpNC/)
@@ -107,12 +130,16 @@ Regular speaker at **Microsoft Reactor**, Microsoft Ignite, Microsoft Build and 
 - 🧪 **Lab Proctor** — Microsoft Ignite 2024 · [LAB402-R1: Multimodal Generative AI](https://www.linkedin.com/posts/aliciamoniz_msignite-ugcPost-7265116994973179905-VssH)
 - Contributor — [Microsoft Build 2025](https://build.microsoft.com) · [Microsoft Ignite 2025](https://ignite.microsoft.com)
 
+### .NET Community
+- 📺 [**.NET AI Community Standup — Ignite Highlights + Custom Avatar Deep Dive**](https://www.youtube.com/live/QLeFHFGLwa8) · official `dotnet` channel — 2025
+   Covered Microsoft Ignite 2025 highlights and a live deep dive of the [AI-Custom-Avatar](https://github.com/ppiova/AI-Custom-Avatar) project — Azure AI Avatar on .NET 10 + Blazor + Aspire.
+
 ### Community & Conferences
-- 🎤 [**Global AI Bootcamp 2025 — Buenos Aires Keynote**](https://www.youtube.com/live/8_t0GO-PJgk)
-- 🎤 [**Global AI Bootcamp 2025 — Rosario · MCP: Model Context Protocol**](https://www.youtube.com/watch?v=2wgiWC4l7Cw)
-- 🎤 [**AgentCon Córdoba**](https://www.linkedin.com/posts/ppiova_ai-agents-azure-activity-7374822413731082240-yi98) · Co-organizer & speaker
-- 🎤 [**VS Code Dev Day Buenos Aires**](https://www.linkedin.com/posts/ppiova_vscodedevday-azureai-avatar-activity-7372898167958265856-1MCJ) · Co-organizer & speaker
-- 🎤 [**Microsoft AI Workshop — Make AI Agents Work for You**](https://followoz.com/oz_events/microsoft-ai-workshop-make-ai-agents-work-for-you/)
+- 🎤 [**Global AI Bootcamp 2025 — Buenos Aires Keynote**](https://www.youtube.com/live/8_t0GO-PJgk) — 2025
+- 🎤 [**Global AI Bootcamp 2025 — Rosario · MCP: Model Context Protocol**](https://www.youtube.com/watch?v=2wgiWC4l7Cw) — 2025
+- 🎤 [**AgentCon Córdoba**](https://www.linkedin.com/posts/ppiova_ai-agents-azure-activity-7374822413731082240-yi98) · Co-organizer & speaker — 2025
+- 🎤 [**VS Code Dev Day Buenos Aires**](https://www.linkedin.com/posts/ppiova_vscodedevday-azureai-avatar-activity-7372898167958265856-1MCJ) · Co-organizer & speaker — 2025
+- 🎤 [**Microsoft AI Workshop — Make AI Agents Work for You**](https://followoz.com/oz_events/microsoft-ai-workshop-make-ai-agents-work-for-you/) — 2025
 
 ---
 
