@@ -33,7 +33,7 @@ docker run --rm -p 8080:8080 ghcr.io/ppiova/mcp-docker-starter:latest
 Every image below can be verified end-to-end:
 
 ```bash
-cosign verify ghcr.io/ppiova/<image>:latest \
+cosign verify ghcr.io/ppiova/mcp-docker-starter:latest \
   --certificate-identity-regexp 'https://github.com/ppiova/.+' \
   --certificate-oidc-issuer 'https://token.actions.githubusercontent.com'
 ```
@@ -84,16 +84,10 @@ cosign verify ghcr.io/ppiova/<image>:latest \
 ![.NET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white)
 ![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?logo=microsoft&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Compose](https://img.shields.io/badge/Docker_Compose-2496ED?logo=docker&logoColor=white)
-![Buildx](https://img.shields.io/badge/Buildx-multi--arch-2496ED?logo=docker&logoColor=white)
-![Devcontainers](https://img.shields.io/badge/Devcontainers-007ACC?logo=visualstudiocode&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
-![Cosign](https://img.shields.io/badge/Cosign-000?logo=sigstore&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-000000?logoColor=white)
 
 ---
@@ -178,16 +172,6 @@ cosign verify ghcr.io/ppiova/<image>:latest \
 </details>
 
 > **Why this matters.** Enterprises can't deploy unsigned samples. Shipping every image with SBOM + provenance turns "interesting demo" into "something I can put a ticket on."
-
----
-
-## Currently
-
-- 🔭 **Working on:** agent orchestration patterns, MCP tooling and containerized AI samples
-- 🌱 **Learning:** advanced container orchestration and distributed agent runtimes
-- 👯 **Looking to collaborate on:** OSS AI tooling, MCP servers, Docker + AI samples
-- 💬 **Ask me about:** Azure AI, Agent Framework, the MVP journey, building community
-- 📫 **Reach me at:** [LinkedIn](https://www.linkedin.com/in/ppiova/) · [X/Twitter](https://twitter.com/ppiova)
 
 ---
 
@@ -293,40 +277,3 @@ Available for:
 **Organizer at [.NET Baires](https://www.meetup.com/es-es/net-baires/)** — one of the largest .NET & AI communities in LATAM. Co-organizer of AgentCon Córdoba, VS Code Dev Days Córdoba, Global Azure Latino .NET Online, and Calendarios de Adviento IA.
 
 Focused on making AI practical and usable for real-world applications.
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-![Pablo's GitHub stats](https://github-readme-stats.vercel.app/api?username=ppiova&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![GitHub Streak](https://streak-stats.demolab.com?user=ppiova&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ppiova&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=ppiova&theme=tokyonight&no-frame=true&column=7&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
-## Focus Areas
-
-`AI Agents` `GenAI` `Azure AI` `Microsoft Foundry` `MCP` `RAG` `Docker` `Containers` `Supply Chain Security` `SBOM` `SLSA` `cosign` `Open Source`
-
----
-
-## Connect
-
-<div align="center">
-
-[![MVP Profile](https://img.shields.io/badge/Microsoft_MVP-Profile-0078D4?logo=microsoft&logoColor=white)](https://mvp.microsoft.com/en-us/PublicProfile/5004753)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ppiova/)
-[![X](https://img.shields.io/badge/X-@ppiova-000000?logo=x&logoColor=white)](https://twitter.com/ppiova)
-[![dev.to](https://img.shields.io/badge/dev.to-ppiova-0A0A0A?logo=devdotto&logoColor=white)](https://dev.to/ppiova)
-[![Meetup](https://img.shields.io/badge/.NET_Baires-Organizer-ED1C40?logo=meetup&logoColor=white)](https://www.meetup.com/es-es/net-baires/)
-[![GHCR](https://img.shields.io/badge/GHCR-ppiova-2496ED?logo=github&logoColor=white)](https://github.com/ppiova?tab=packages)
-[![Book](https://img.shields.io/badge/AI_102_Book-Amazon-FF9900?logo=amazon&logoColor=white)](https://a.co/d/0hJv775S)
-
-</div>
