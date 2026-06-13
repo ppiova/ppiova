@@ -2,11 +2,12 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=180&section=header&text=Pablo%20Piovano&fontSize=54&fontAlignY=38&fontColor=ffffff&animation=fadeIn" alt="header" />
 
-### Microsoft MVP in AI · Director of AI · Community Leader · Author
+### Microsoft MVP in AI · 🐳 Docker Captain · Director of AI · Community Leader · Author
 
 Shipping AI agents, enterprise GenAI and **signed, multi-arch, SBOM-attested container images** — built on **Azure AI**, **Microsoft Foundry**, **MCP** and **Docker**.
 
 [![Microsoft MVP](https://img.shields.io/badge/Microsoft-MVP_in_AI-0078D4?logo=microsoft&logoColor=white)](https://mvp.microsoft.com/en-us/PublicProfile/5004753)
+[![Docker Captain](https://img.shields.io/badge/Docker-Captain-2496ED?logo=docker&logoColor=white)](https://www.docker.com/contributors/pablo-piovano/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Pablo_Piovano-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ppiova/)
 [![X / Twitter](https://img.shields.io/badge/X-@ppiova-000000?logo=x&logoColor=white)](https://twitter.com/ppiova)
 [![dev.to](https://img.shields.io/badge/dev.to-ppiova-0A0A0A?logo=devdotto&logoColor=white)](https://dev.to/ppiova)
@@ -62,6 +63,7 @@ cosign verify ghcr.io/ppiova/mcp-docker-starter:latest \
 | | |
 |---|---|
 | 🏅 **Microsoft MVP in AI** | [Public profile](https://mvp.microsoft.com/en-us/PublicProfile/5004753) — MVP since 2022 |
+| 🐳 **Docker Captain** | [Docker profile](https://www.docker.com/contributors/pablo-piovano/) — recognized for expertise in containers & secure software supply chain |
 | 📘 **Author** | [AI-102 Certification Guide](https://a.co/d/0hJv775S) — Amazon |
 | 🎤 **Community Leader** | Organizer at [.NET Baires](https://www.meetup.com/es-es/net-baires/) — one of LATAM's largest .NET communities |
 | 💼 **Director of AI** | [OZ Digital Consulting](https://followoz.com/) — leading the AI Center of Excellence |
@@ -125,6 +127,8 @@ Polyglot compose: Python **FastMCP** server + .NET Agent Framework client, conne
 ---
 
 ## 🔐 Container Supply Chain
+
+> 🐳 As a **[Docker Captain](https://www.docker.com/contributors/pablo-piovano/)**, I focus on making containers reproducible, portable and trustworthy for real AI workloads — the practices below are exactly what that recognition is about.
 
 Every image on **[ghcr.io/ppiova](https://github.com/ppiova?tab=packages)** ships with:
 
@@ -273,6 +277,8 @@ Available for:
 ## Leadership & Community
 
 **Director of AI at OZ Digital Consulting** — leading the AI Center of Excellence and driving enterprise GenAI adoption.
+
+**[Docker Captain](https://www.docker.com/contributors/pablo-piovano/)** — part of Docker's program for technical leaders, advocating for reproducible, portable and secure containerized AI.
 
 **Organizer at [.NET Baires](https://www.meetup.com/es-es/net-baires/)** — one of the largest .NET & AI communities in LATAM. Co-organizer of AgentCon Córdoba, VS Code Dev Days Córdoba, Global Azure Latino .NET Online, and Calendarios de Adviento IA.
 
