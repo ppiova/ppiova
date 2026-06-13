@@ -45,7 +45,7 @@ cosign verify ghcr.io/ppiova/mcp-docker-starter:latest \
 
 ### 🚢 Shipping in the open
 
-**8 featured repos** · **7 signed images on GHCR** · **SBOM + SLSA provenance** · **multi-arch (amd64 / arm64)**
+**11 featured repos** · **7 signed images on GHCR** · **SBOM + SLSA provenance** · **multi-arch (amd64 / arm64)**
 
 ![GHCR](https://img.shields.io/badge/GHCR-published-2496ED?logo=github&logoColor=white)
 ![SBOM](https://img.shields.io/badge/SBOM-SPDX-4C1?logo=linuxfoundation&logoColor=white)
@@ -122,6 +122,18 @@ Single-agent starter. Multi-stage Dockerfile (Alpine, non-root), Dev Container /
 
 🔹 **[mcp-docker-starter](https://github.com/ppiova/mcp-docker-starter)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/mcp-docker-starter?style=flat&label=%E2%98%85)
 Polyglot compose: Python **FastMCP** server + .NET Agent Framework client, connected via SSE over a private bridge network. Service discovery, healthchecks, non-root everywhere.
+
+🔹 **[ai-agents-compose-stack](https://github.com/ppiova/ai-agents-compose-stack)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/ai-agents-compose-stack?style=flat&label=%E2%98%85)
+Multi-agent workflow (Researcher → Writer) with Microsoft Agent Framework, **OpenTelemetry + Aspire Dashboard** observability — fully in Docker Compose. Published image ships multi-arch with SBOM + SLSA provenance.
+
+
+### 🐳 Docker Model Runner — run LLMs locally
+
+🔹 **[docker-model-runner-lab](https://github.com/ppiova/docker-model-runner-lab)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/docker-model-runner-lab?style=flat&label=%E2%98%85)
+Hands-on lab for **Docker Model Runner** — run LLMs locally behind an OpenAI-compatible API with .NET and Docker Compose. No cloud, no API keys, nothing leaves your machine.
+
+🔹 **[docker-model-runner-multi-sdk-demo](https://github.com/ppiova/docker-model-runner-multi-sdk-demo)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/docker-model-runner-multi-sdk-demo?style=flat&label=%E2%98%85)
+One endpoint, three SDKs: DMR serves the same local model through **OpenAI, Anthropic and Ollama** formats on a single port — dev/prod parity with Microsoft Foundry, six runnable Python + .NET examples.
 
 
 ---
