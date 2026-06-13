@@ -24,19 +24,22 @@ Shipping AI agents, enterprise GenAI and **signed, multi-arch, SBOM-attested con
 
 ---
 
-## ⚡ Try it in 30 seconds
+## ⚡ Try it — and verify it — in 30 seconds
 
 ```bash
-docker run --rm -p 8080:8080 ghcr.io/ppiova/mcp-docker-starter:latest
+# Run a signed, multi-arch image (Blazor chat UI from the Docker Model Runner lab)
+docker run --rm -p 8080:8080 ghcr.io/ppiova/docker-model-runner-lab/blazor-chat:latest
 # then open http://localhost:8080
 ```
 
-Every image below can be verified end-to-end:
+Every image is multi-arch, SBOM-attested and carries keyless-signed SLSA provenance — verify any of them end-to-end:
 
 ```bash
-cosign verify ghcr.io/ppiova/mcp-docker-starter:latest \
-  --certificate-identity-regexp 'https://github.com/ppiova/.+' \
-  --certificate-oidc-issuer 'https://token.actions.githubusercontent.com'
+# Multi-arch manifest + attached SBOM & SLSA provenance
+docker buildx imagetools inspect ghcr.io/ppiova/docker-model-runner-lab/blazor-chat:latest
+
+# Verify the keyless-signed build provenance (GitHub OIDC, via Sigstore)
+gh attestation verify oci://ghcr.io/ppiova/docker-model-runner-lab/blazor-chat:latest --owner ppiova
 ```
 
 ---
@@ -45,13 +48,13 @@ cosign verify ghcr.io/ppiova/mcp-docker-starter:latest \
 
 ### 🚢 Shipping in the open
 
-**11 featured repos** · **8 signed images on GHCR** · **SBOM + SLSA provenance** · **multi-arch (amd64 / arm64)**
+**11 featured repos** · **6 signed images on GHCR** · **SBOM + SLSA provenance** · **multi-arch (amd64 / arm64)**
 
 ![GHCR](https://img.shields.io/badge/GHCR-published-2496ED?logo=github&logoColor=white)
 ![SBOM](https://img.shields.io/badge/SBOM-SPDX-4C1?logo=linuxfoundation&logoColor=white)
 ![Provenance](https://img.shields.io/badge/SLSA-provenance-1E90FF?logo=slsa&logoColor=white)
 ![Multi-arch](https://img.shields.io/badge/multi--arch-amd64_%7C_arm64-0db7ed?logo=docker&logoColor=white)
-![Signed](https://img.shields.io/badge/cosign-signed-000?logo=sigstore&logoColor=white)
+![Signed](https://img.shields.io/badge/Sigstore-signed_provenance-000?logo=sigstore&logoColor=white)
 ![CI](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 
 </div>
@@ -142,28 +145,26 @@ One endpoint, three SDKs: DMR serves the same local model through **OpenAI, Anth
 
 > 🐳 As a **[Docker Captain](https://www.docker.com/contributors/pablo-piovano/)**, I focus on making containers reproducible, portable and trustworthy for real AI workloads — the practices below are exactly what that recognition is about.
 
-Every image on **[ghcr.io/ppiova](https://github.com/ppiova?tab=packages)** ships with:
+Every image **listed below** ships from **[GitHub Actions](https://github.com/ppiova?tab=packages)** with:
 
 | Guarantee | How |
 |---|---|
 | **Multi-arch** | `docker buildx` — `linux/amd64` + `linux/arm64` |
-| **SBOM** | SPDX attestation attached (`docker buildx --sbom=true`) |
-| **Provenance** | SLSA build provenance (`--provenance=mode=max`) |
-| **Signed** | Keyless `cosign` via GitHub OIDC |
+| **SBOM** | SPDX attestation attached (buildx `sbom: true`) |
+| **Provenance** | SLSA build provenance attached (buildx `provenance: true`) |
+| **Signed** | Keyless build-provenance attestation via GitHub OIDC — Sigstore (`actions/attest-build-provenance`) |
 | **Reproducible** | Pinned bases, deterministic builds in GitHub Actions |
 
 ### Published images
 
 | # | Image | Source |
 |---|---|---|
-| 1 | `ghcr.io/ppiova/agentframeworkdemos` | [AgentFrameworkDemos](https://github.com/ppiova/AgentFrameworkDemos) |
-| 2 | `ghcr.io/ppiova/agentfx-mcp-microsoftlearn` | [AgentFX-MCP-MicrosoftLearn](https://github.com/ppiova/AgentFX-MCP-MicrosoftLearn) |
-| 3 | `ghcr.io/ppiova/travelmcp` | [TravelMCP](https://github.com/ppiova/TravelMCP) |
-| 4 | `ghcr.io/ppiova/azureopenai-entraid-consoleapp` | [AzureOpenAI-EntraID-ConsoleApp](https://github.com/ppiova/AzureOpenAI-EntraID-ConsoleApp) |
-| 5 | `ghcr.io/ppiova/ai-custom-avatar` | [AI-Custom-Avatar](https://github.com/ppiova/AI-Custom-Avatar) |
-| 6 | `ghcr.io/ppiova/agent-framework-devcontainer` | [agent-framework-devcontainer](https://github.com/ppiova/agent-framework-devcontainer) |
-| 7 | `ghcr.io/ppiova/mcp-docker-starter` | [mcp-docker-starter](https://github.com/ppiova/mcp-docker-starter) |
-| 8 | `ghcr.io/ppiova/ai-agents-compose-stack` | [ai-agents-compose-stack](https://github.com/ppiova/ai-agents-compose-stack) |
+| 1 | `ghcr.io/ppiova/agent-framework-devcontainer` | [agent-framework-devcontainer](https://github.com/ppiova/agent-framework-devcontainer) |
+| 2 | `ghcr.io/ppiova/mcp-docker-starter/mcp-server` | [mcp-docker-starter](https://github.com/ppiova/mcp-docker-starter) |
+| 3 | `ghcr.io/ppiova/mcp-docker-starter/agent-client` | [mcp-docker-starter](https://github.com/ppiova/mcp-docker-starter) |
+| 4 | `ghcr.io/ppiova/ai-agents-compose-stack` | [ai-agents-compose-stack](https://github.com/ppiova/ai-agents-compose-stack) |
+| 5 | `ghcr.io/ppiova/docker-model-runner-lab/compose-api` | [docker-model-runner-lab](https://github.com/ppiova/docker-model-runner-lab) |
+| 6 | `ghcr.io/ppiova/docker-model-runner-lab/blazor-chat` | [docker-model-runner-lab](https://github.com/ppiova/docker-model-runner-lab) |
 
 <details>
 <summary>🔎 <b>Inspect any image</b></summary>
@@ -180,10 +181,8 @@ docker buildx imagetools inspect ghcr.io/ppiova/<image>:latest \
 docker buildx imagetools inspect ghcr.io/ppiova/<image>:latest \
   --format '{{ json .Provenance }}'
 
-# Signature verification
-cosign verify ghcr.io/ppiova/<image>:latest \
-  --certificate-identity-regexp 'https://github.com/ppiova/.+' \
-  --certificate-oidc-issuer 'https://token.actions.githubusercontent.com'
+# Verify the keyless-signed build provenance (GitHub OIDC, via Sigstore)
+gh attestation verify oci://ghcr.io/ppiova/<image>:latest --owner ppiova
 ```
 
 </details>
