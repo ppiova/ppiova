@@ -45,7 +45,7 @@ cosign verify ghcr.io/ppiova/mcp-docker-starter:latest \
 
 ### 🚢 Shipping in the open
 
-**11 featured repos** · **7 signed images on GHCR** · **SBOM + SLSA provenance** · **multi-arch (amd64 / arm64)**
+**11 featured repos** · **8 signed images on GHCR** · **SBOM + SLSA provenance** · **multi-arch (amd64 / arm64)**
 
 ![GHCR](https://img.shields.io/badge/GHCR-published-2496ED?logo=github&logoColor=white)
 ![SBOM](https://img.shields.io/badge/SBOM-SPDX-4C1?logo=linuxfoundation&logoColor=white)
@@ -163,6 +163,7 @@ Every image on **[ghcr.io/ppiova](https://github.com/ppiova?tab=packages)** ship
 | 5 | `ghcr.io/ppiova/ai-custom-avatar` | [AI-Custom-Avatar](https://github.com/ppiova/AI-Custom-Avatar) |
 | 6 | `ghcr.io/ppiova/agent-framework-devcontainer` | [agent-framework-devcontainer](https://github.com/ppiova/agent-framework-devcontainer) |
 | 7 | `ghcr.io/ppiova/mcp-docker-starter` | [mcp-docker-starter](https://github.com/ppiova/mcp-docker-starter) |
+| 8 | `ghcr.io/ppiova/ai-agents-compose-stack` | [ai-agents-compose-stack](https://github.com/ppiova/ai-agents-compose-stack) |
 
 <details>
 <summary>🔎 <b>Inspect any image</b></summary>
