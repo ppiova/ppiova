@@ -14,7 +14,6 @@ Shipping AI agents, enterprise GenAI and **signed, multi-arch, SBOM-attested con
 [![Meetup](https://img.shields.io/badge/Meetup-.NET_Baires-ED1C40?logo=meetup&logoColor=white)](https://www.meetup.com/es-es/net-baires/)
 [![Book](https://img.shields.io/badge/Book-AI_102_Guide-FF9900?logo=amazon&logoColor=white)](https://a.co/d/0hJv775S)
 [![GHCR](https://img.shields.io/badge/GHCR-ppiova-2496ED?logo=github&logoColor=white)](https://github.com/ppiova?tab=packages)
-[![Profile views](https://komarev.com/ghpvc/?username=ppiova&label=Profile+views&color=0e75b6&style=flat)](https://github.com/ppiova)
 
 </div>
 
@@ -48,7 +47,7 @@ gh attestation verify oci://ghcr.io/ppiova/docker-model-runner-lab/blazor-chat:l
 
 ### 🚢 Shipping in the open
 
-**11 featured repos** · **6 signed images on GHCR** · **SBOM + SLSA provenance** · **multi-arch (amd64 / arm64)**
+**12 featured repos** · **1 app on the Microsoft Store** · **6 signed images on GHCR** · **SBOM + SLSA provenance** · **multi-arch (amd64 / arm64)**
 
 ![GHCR](https://img.shields.io/badge/GHCR-published-2496ED?logo=github&logoColor=white)
 ![SBOM](https://img.shields.io/badge/SBOM-SPDX-4C1?logo=linuxfoundation&logoColor=white)
@@ -68,12 +67,12 @@ gh attestation verify oci://ghcr.io/ppiova/docker-model-runner-lab/blazor-chat:l
 | 🏅 **Microsoft MVP in AI** | [Public profile](https://mvp.microsoft.com/en-us/PublicProfile/5004753) — MVP since 2022 |
 | 🐳 **Docker Captain** | [Docker profile](https://www.docker.com/contributors/pablo-piovano/) — recognized for expertise in containers & secure software supply chain |
 | 📘 **Author** | [AI-102 Certification Guide](https://a.co/d/0hJv775S) — Amazon |
-| 🎤 **Community Leader** | Organizer at [.NET Baires](https://www.meetup.com/es-es/net-baires/) — one of LATAM's largest .NET communities |
-| 💼 **Director of AI** | [OZ Digital Consulting](https://followoz.com/) — leading the AI Center of Excellence |
+| 🎤 **Community Leader** | Organizer at [.NET Baires](https://www.meetup.com/es-es/net-baires/), one of LATAM's largest .NET & AI communities — co-organizer of AgentCon Córdoba, VS Code Dev Days and Global Azure Latino |
+| 💼 **Director of AI** | [OZ Digital Consulting](https://followoz.com/) — leading the AI Center of Excellence and enterprise GenAI adoption |
 
 ---
 
-## What I Build
+## 🛠️ What I Build
 
 - AI agents, orchestration and multi-agent patterns
 - Enterprise Generative AI on Azure AI and Microsoft Foundry
@@ -84,7 +83,7 @@ gh attestation verify oci://ghcr.io/ppiova/docker-model-runner-lab/blazor-chat:l
 
 ---
 
-## Tech Stack
+## 🧰 Tech Stack
 
 ![.NET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
@@ -97,7 +96,7 @@ gh attestation verify oci://ghcr.io/ppiova/docker-model-runner-lab/blazor-chat:l
 
 ---
 
-## Featured Work
+## 📌 Featured Work
 
 🔹 **[mcp-servers-microsoft-ecosystem](https://github.com/ppiova/mcp-servers-microsoft-ecosystem)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/mcp-servers-microsoft-ecosystem?style=flat&label=%E2%98%85)
 Community-curated catalog of **MCP servers** across the Microsoft ecosystem (Azure, M365, Fabric, Power Platform, GitHub, Copilot Studio) — complements the official [`microsoft/mcp`](https://github.com/microsoft/mcp) with community implementations, clients, starters and security guidance.
@@ -116,6 +115,12 @@ Enterprise-grade Azure OpenAI auth with Entra ID — production-ready patterns.
 
 🔹 **[AI-Custom-Avatar](https://github.com/ppiova/AI-Custom-Avatar)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/AI-Custom-Avatar?style=flat&label=%E2%98%85)
 Azure AI Avatar Agent on .NET 10 + Blazor + .NET Aspire — Speech-to-Text, Azure OpenAI and a talking avatar with synchronized lip-sync. Built with [Bruno Capuano](https://github.com/elbruno).
+
+
+### 🪟 Published on the Microsoft Store
+
+🔹 **[VMAzureApp — Cloud VM Manager for Windows](https://github.com/ppiova/VMAzureApp)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/VMAzureApp?style=flat&label=%E2%98%85) &nbsp;[![Microsoft Store](https://img.shields.io/badge/Microsoft_Store-Get_it-0078D4?logo=microsoft&logoColor=white)](https://apps.microsoft.com/detail/9ngrmhhvcv4b)
+Manage Azure VMs across all your subscriptions without opening the portal — start / stop / restart / hibernate with bulk actions, local scheduling and real-time power-state monitoring. WPF on .NET 10 with Entra ID sign-in, shipped as MSIX through GitHub Actions. [**Get it from the Microsoft Store**](https://apps.microsoft.com/detail/9ngrmhhvcv4b).
 
 
 ### 🐳 Docker-first series — Microsoft Agent Framework
@@ -191,20 +196,24 @@ gh attestation verify oci://ghcr.io/ppiova/<image>:latest --owner ppiova
 
 ---
 
-## Speaking & Teaching
+## 🎤 Speaking & Teaching
 
-Regular speaker at **Microsoft Reactor**, Microsoft Ignite, Microsoft Build and community events across LATAM. A selection:
+Regular speaker at **Microsoft Reactor**, Microsoft Ignite, Microsoft Build and community events across LATAM. Highlights:
+
+- 🎙️ [**GitHub Copilot CLI & AI Agents**](https://www.youtube.com/watch?v=3lkcGkG8Vxg) — Microsoft Reactor · 2026
+- 🎙️ [**Innovaciones clave en Microsoft Fabric & Microsoft Foundry**](https://www.youtube.com/watch?v=lKeGHSiPMw0) — Microsoft Reactor · 2026
+- 🎙️ [**Crea tus propios Agentes de IA con Azure AI Foundry**](https://www.youtube.com/watch?v=dklTcCMSLsU) — Microsoft Reactor · 2026
+- 📺 [**.NET AI Community Standup — Ignite Highlights + Custom Avatar Deep Dive**](https://www.youtube.com/live/QLeFHFGLwa8) — official `dotnet` channel · 2025 — live deep dive of [AI-Custom-Avatar](https://github.com/ppiova/AI-Custom-Avatar) (.NET 10 + Blazor + Aspire)
+- 🧪 **Lab Proctor** — [Microsoft Ignite 2025](https://www.linkedin.com/posts/ppiova_msignite-microsoftfoundry-aiagents-activity-7397466189163065344-SpNC/) & [Microsoft Build 2025](https://www.linkedin.com/posts/lbugnion_so-this-week-was-intense-my-team-produced-activity-7332058591065018369-JmU2/) · LAB324: Azure AI Foundry
+- 🎤 [**Global AI Bootcamp 2025 — Buenos Aires Keynote**](https://www.youtube.com/live/8_t0GO-PJgk) — 2025
+
+<details>
+<summary>📚 <b>More sessions & community events (2023–2026)</b></summary>
 
 ### Microsoft Reactor
 
-**🎤 Speaker — featured sessions**
-- 🎙️ [**GitHub Copilot CLI & AI Agents**](https://www.youtube.com/watch?v=3lkcGkG8Vxg) — 2026
-- 🎙️ [**Innovaciones clave en Microsoft Fabric & Microsoft Foundry**](https://www.youtube.com/watch?v=lKeGHSiPMw0) — 2026
-- 🎙️ [**Crea tus propios Agentes de IA con Azure AI Foundry**](https://www.youtube.com/watch?v=dklTcCMSLsU) — 2026
 - 🎙️ [**Lo mejor de Microsoft Build 2025**](https://www.youtube.com/live/9X3F7GJZhz8) — 2026
 - 🎙️ [**Integración de MCP con LLMs**](https://reactor.microsoft.com/es-es/reactor/events/26167/) — 2025
-
-**🧠 Sessions & contributor**
 
 *Agentes & AI avanzada*
 - 🤖 [**Introducción al Agent Framework y agentes individuales**](https://developer.microsoft.com/en-us/reactor/events/26463/) — 2025
@@ -229,41 +238,35 @@ Regular speaker at **Microsoft Reactor**, Microsoft Ignite, Microsoft Build and 
 - 🎛️ [**Carrera y tecnología: AI (Panel)**](https://www.youtube.com/live/ItIRwZvQAJE) — 2023
 
 ### Microsoft Ignite & Build
-- 🧪 **Lab Proctor** — Microsoft Ignite 2025 · [LAB324: Azure AI Foundry](https://www.linkedin.com/posts/ppiova_msignite-microsoftfoundry-aiagents-activity-7397466189163065344-SpNC/)
-- 🧪 **Lab Proctor** — Microsoft Build 2025 · [LAB324: Azure AI Foundry](https://www.linkedin.com/posts/lbugnion_so-this-week-was-intense-my-team-produced-activity-7332058591065018369-JmU2/)
 - 🧪 **Lab Proctor** — Microsoft Ignite 2024 · [LAB402-R1: Multimodal Generative AI](https://www.linkedin.com/posts/aliciamoniz_msignite-ugcPost-7265116994973179905-VssH)
 - Contributor — [Microsoft Build 2025](https://build.microsoft.com) · [Microsoft Ignite 2025](https://ignite.microsoft.com)
 
-### .NET Community
-- 📺 [**.NET AI Community Standup — Ignite Highlights + Custom Avatar Deep Dive**](https://www.youtube.com/live/QLeFHFGLwa8) · official `dotnet` channel — 2025
-   Covered Microsoft Ignite 2025 highlights and a live deep dive of the [AI-Custom-Avatar](https://github.com/ppiova/AI-Custom-Avatar) project — Azure AI Avatar on .NET 10 + Blazor + Aspire.
-
 ### Community & Conferences
 - 🎤 [**AgentCon Córdoba**](https://www.linkedin.com/posts/ppiova_ai-agents-azure-activity-7374822413731082240-yi98) · Co-organizer & speaker — 2025
-- 🎤 [**Global AI Bootcamp 2025 — Buenos Aires Keynote**](https://www.youtube.com/live/8_t0GO-PJgk) — 2025
-- 🎤 [**VS Code Dev Day - Sunchales**](https://www.linkedin.com/posts/ppiova_vscodedevday-ai-githubcopilot-activity-7377780692564406272-b9nv)  · Co-organizer & speaker — 2025
+- 🎤 [**VS Code Dev Day - Sunchales**](https://www.linkedin.com/posts/ppiova_vscodedevday-ai-githubcopilot-activity-7377780692564406272-b9nv) · Co-organizer & speaker — 2025
 - 🎤 [**VS Code Dev Day Buenos Aires**](https://www.linkedin.com/posts/ppiova_vscodedevday-azureai-avatar-activity-7372898167958265856-1MCJ) · Speaker — 2025
-- 🎤 [**Microsoft AI Workshop — Make AI Agents Work for You**](https://followoz.com/oz_events/microsoft-ai-workshop-make-ai-agents-work-for-you/) Speaker — 2025
+- 🎤 [**Microsoft AI Workshop — Make AI Agents Work for You**](https://followoz.com/oz_events/microsoft-ai-workshop-make-ai-agents-work-for-you/) · Speaker — 2025
+
+</details>
 
 ---
 
-## Writing & Content
+## ✍️ Writing & Content
 
 📘 [**AI-102 Certification Guide**](https://a.co/d/0hJv775S) — practical guide for building real-world solutions with Azure AI, Generative AI and Microsoft Foundry.
 
 📝 Recent articles:
+- [Docker Model Runner: Models Are the New Containers](https://www.linkedin.com/pulse/docker-model-runner-models-new-containers-pablo-piovano-ibljf/) — LinkedIn Pulse · 2026
+- [Your engineers aren't the bottleneck anymore. Your org chart is.](https://www.linkedin.com/pulse/your-engineers-arent-bottleneck-anymore-org-chart-pablo-piovano-jiz4f/) — LinkedIn Pulse · 2026
+- [Microsoft Just Retired Prompt Flow. Don't Mistake This for a Migration Story.](https://www.linkedin.com/pulse/microsoft-just-retired-prompt-flow-dont-mistake-story-pablo-piovano-6fgvf/) — LinkedIn Pulse · 2026
+- [The End of All-You-Can-Eat AI: How April 2026 Killed the Flat-Rate Era for Developers](https://dev.to/ppiova/the-end-of-all-you-can-eat-ai-how-april-2026-killed-the-flat-rate-era-for-developers-5260) — `dev.to` · 2026
 - [Workflows en Microsoft Foundry](https://dev.to/ppiova/workflows-en-microsoft-foundry-1e5k) — `dev.to`
-- [🔔 You're probably already using Responses API, you just don't know it yet](https://www.linkedin.com/pulse/youre-probably-already-using-responses-api-you-just-dont-piovano-hwpmf/) — LinkedIn Pulse
-- [Azure OpenAI Realtime API + VoiceRAG](https://www.linkedin.com/pulse/azure-openai-realtime-api-voicerag-pablo-piovano-jgnmf) — LinkedIn Pulse
-- [Azure OpenAI: Retiring GPT-4o (2024-05-13 & 2024-08-06) — What to Do](https://www.linkedin.com/pulse/azure-openai-retiring-gpt-4o-2024-05-13-2024-08-06-what-pablo-piovano-miolf) — LinkedIn Pulse
-- [Azure Computer Vision Image Analysis: Retiring — What Actually Changes](https://www.linkedin.com/pulse/azure-computer-vision-image-analysis-retiring-actually-pablo-piovano-6jcff/) — LinkedIn Pulse
-- [Microsoft Foundry & Agent Framework — Technical deep dive](https://www.linkedin.com/posts/ppiova_microsoftfoundry-responsesapi-microsoftagentframework-activity-7433603187938365440-91q1/)
 
 Full technical series on **[dev.to](https://dev.to/ppiova)** and **[LinkedIn](https://www.linkedin.com/in/ppiova/recent-activity/articles/)** — covering Azure AI, Agents, MCP, Foundry and containerized AI.
 
 ---
 
-## Open Source Contributions
+## 🤝 Open Source Contributions
 
 Contributor to Microsoft and community OSS projects around AI and Agents, including:
 
@@ -286,12 +289,8 @@ Available for:
 
 ---
 
-## Leadership & Community
+<div align="center">
 
-**Director of AI at OZ Digital Consulting** — leading the AI Center of Excellence and driving enterprise GenAI adoption.
+_Focused on making AI practical, verifiable and usable for real-world applications._
 
-**[Docker Captain](https://www.docker.com/contributors/pablo-piovano/)** — part of Docker's program for technical leaders, advocating for reproducible, portable and secure containerized AI.
-
-**Organizer at [.NET Baires](https://www.meetup.com/es-es/net-baires/)** — one of the largest .NET & AI communities in LATAM. Co-organizer of AgentCon Córdoba, VS Code Dev Days Córdoba, Global Azure Latino .NET Online, and Calendarios de Adviento IA.
-
-Focused on making AI practical and usable for real-world applications.
+</div>
