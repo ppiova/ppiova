@@ -2,9 +2,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=180&section=header&text=Pablo%20Piovano&fontSize=54&fontAlignY=38&fontColor=ffffff&animation=fadeIn" alt="header" />
 
-### Microsoft MVP in AI · 🐳 Docker Captain · Director of AI · Community Leader · Author
+### I take AI agents from demo to production in real enterprises, and teach developers how to do it.
 
-Shipping AI agents, enterprise GenAI and **signed, multi-arch, SBOM-attested container images** — built on **Azure AI**, **Microsoft Foundry**, **MCP** and **Docker**.
+Microsoft MVP in AI · 🐳 Docker Captain · Director of AI @ OZ Digital · Community Leader · Author
 
 [![Microsoft MVP](https://img.shields.io/badge/Microsoft-MVP_in_AI-0078D4?logo=microsoft&logoColor=white)](https://mvp.microsoft.com/en-us/PublicProfile/5004753)
 [![Docker Captain](https://img.shields.io/badge/Docker-Captain-2496ED?logo=docker&logoColor=white)](https://www.docker.com/contributors/pablo-piovano/)
@@ -19,42 +19,12 @@ Shipping AI agents, enterprise GenAI and **signed, multi-arch, SBOM-attested con
 
 ---
 
-> **Mission.** Make enterprise-grade AI samples that teams can _actually_ trust: reproducible, auditable, signed. No "works on my laptop" — everything ships as a multi-arch OCI image with SBOM and SLSA provenance, so security reviews become a one-liner.
-
----
-
-## ⚡ Try it — and verify it — in 30 seconds
-
-```bash
-# Run a signed, multi-arch image (Blazor chat UI from the Docker Model Runner lab)
-docker run --rm -p 8080:8080 ghcr.io/ppiova/docker-model-runner-lab/blazor-chat:latest
-# then open http://localhost:8080
-```
-
-Every image is multi-arch, SBOM-attested and carries keyless-signed SLSA provenance — verify any of them end-to-end:
-
-```bash
-# Multi-arch manifest + attached SBOM & SLSA provenance
-docker buildx imagetools inspect ghcr.io/ppiova/docker-model-runner-lab/blazor-chat:latest
-
-# Verify the keyless-signed build provenance (GitHub OIDC, via Sigstore)
-gh attestation verify oci://ghcr.io/ppiova/docker-model-runner-lab/blazor-chat:latest --owner ppiova
-```
-
----
+> **By day** I lead the AI Center of Excellence at OZ Digital, taking AI agents to production for enterprise clients.
+> **By night** I turn what breaks there into samples, labs and talks, so other developers don't have to learn it the hard way.
 
 <div align="center">
 
-### 🚢 Shipping in the open
-
-**12 featured repos** · **1 app on the Microsoft Store** · **6 signed images on GHCR** · **SBOM + SLSA provenance** · **multi-arch (amd64 / arm64)**
-
-![GHCR](https://img.shields.io/badge/GHCR-published-2496ED?logo=github&logoColor=white)
-![SBOM](https://img.shields.io/badge/SBOM-SPDX-4C1?logo=linuxfoundation&logoColor=white)
-![Provenance](https://img.shields.io/badge/SLSA-provenance-1E90FF?logo=slsa&logoColor=white)
-![Multi-arch](https://img.shields.io/badge/multi--arch-amd64_%7C_arm64-0db7ed?logo=docker&logoColor=white)
-![Signed](https://img.shields.io/badge/Sigstore-signed_provenance-000?logo=sigstore&logoColor=white)
-![CI](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
+**27+ Microsoft Reactor sessions (~35K views)** · **3 labs as proctor at Microsoft Ignite & Build** · **Organizer of .NET Baires, AgentCon Córdoba & VS Code Dev Days Sunchales**
 
 </div>
 
@@ -64,7 +34,7 @@ gh attestation verify oci://ghcr.io/ppiova/docker-model-runner-lab/blazor-chat:l
 
 | | |
 |---|---|
-| 🏅 **Microsoft MVP in AI** | [Public profile](https://mvp.microsoft.com/en-us/PublicProfile/5004753) — MVP since 2022 |
+| 🏅 **Microsoft MVP in AI** | [Public profile](https://mvp.microsoft.com/en-us/PublicProfile/5004753) |
 | 🐳 **Docker Captain** | [Docker profile](https://www.docker.com/contributors/pablo-piovano/) — recognized for expertise in containers & secure software supply chain |
 | 📘 **Author** | [AI-102 Certification Guide](https://a.co/d/0hJv775S) — Amazon |
 | 🎤 **Community Leader** | Organizer at [.NET Baires](https://www.meetup.com/es-es/net-baires/), one of LATAM's largest .NET & AI communities — co-organizer of AgentCon Córdoba, VS Code Dev Days and Global Azure Latino |
@@ -97,6 +67,16 @@ gh attestation verify oci://ghcr.io/ppiova/docker-model-runner-lab/blazor-chat:l
 ---
 
 ## 📌 Featured Work
+
+### 🏭 AI in production
+
+🔹 **[microsoft-foundry-throttling-samples](https://github.com/ppiova/microsoft-foundry-throttling-samples)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/microsoft-foundry-throttling-samples?style=flat&label=%E2%98%85)
+Your agent will get a 429. Throttling, bounded retries and pacing on Microsoft Foundry — Python and C# / .NET 10, a local simulator UI and Bicep.
+
+🔹 **[mai-foundry-demos](https://github.com/ppiova/mai-foundry-demos)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/mai-foundry-demos?style=flat&label=%E2%98%85)
+Offline-first Streamlit demos for MAI models on Microsoft Foundry, with explicit LIVE/FALLBACK labels, API verification notes and Bicep infrastructure.
+
+### 🔌 Agents & MCP
 
 🔹 **[mcp-servers-microsoft-ecosystem](https://github.com/ppiova/mcp-servers-microsoft-ecosystem)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/mcp-servers-microsoft-ecosystem?style=flat&label=%E2%98%85)
 Community-curated catalog of **MCP servers** across the Microsoft ecosystem (Azure, M365, Fabric, Power Platform, GitHub, Copilot Studio) — complements the official [`microsoft/mcp`](https://github.com/microsoft/mcp) with community implementations, clients, starters and security guidance.
@@ -146,9 +126,17 @@ One endpoint, three SDKs: DMR serves the same local model through **OpenAI, Anth
 
 ---
 
-## 🔐 Container Supply Chain
+## 🔐 Samples you can trust
 
-> 🐳 As a **[Docker Captain](https://www.docker.com/contributors/pablo-piovano/)**, I focus on making containers reproducible, portable and trustworthy for real AI workloads — the practices below are exactly what that recognition is about.
+> Enterprises can't deploy unsigned samples. As a **[Docker Captain](https://www.docker.com/contributors/pablo-piovano/)**, every image I publish is multi-arch, SBOM-attested and carries signed provenance. Try one and verify it in 30 seconds:
+
+```bash
+# Run it (Blazor chat UI from the Docker Model Runner lab), then open http://localhost:8080
+docker run --rm -p 8080:8080 ghcr.io/ppiova/docker-model-runner-lab/blazor-chat:latest
+
+# Verify the keyless-signed build provenance (GitHub OIDC, via Sigstore)
+gh attestation verify oci://ghcr.io/ppiova/docker-model-runner-lab/blazor-chat:latest --owner ppiova
+```
 
 Every image **listed below** ships from **[GitHub Actions](https://github.com/ppiova?tab=packages)** with:
 
@@ -192,19 +180,17 @@ gh attestation verify oci://ghcr.io/ppiova/<image>:latest --owner ppiova
 
 </details>
 
-> **Why this matters.** Enterprises can't deploy unsigned samples. Shipping every image with SBOM + provenance turns "interesting demo" into "something I can put a ticket on."
-
 ---
 
 ## 🎤 Speaking & Teaching
 
-Regular speaker at **Microsoft Reactor**, Microsoft Ignite, Microsoft Build and community events across LATAM. Highlights:
+Speaker at **Microsoft Reactor** (27+ sessions since 2022, English & Spanish), lab proctor at **Microsoft Ignite & Build**, and speaker/organizer at community events across the US and LATAM. Highlights:
 
+- 🎙️ [**Crea tus propios agentes de IA con Azure AI Foundry**](https://www.youtube.com/watch?v=dklTcCMSLsU) — Microsoft Reactor · 2025 · 5K+ views
+- 🎙️ [**Generative AI on Azure — The Fundamentals (Part 1)**](https://www.youtube.com/watch?v=y3OaFA_QjC4) — Microsoft Reactor · 2025 · English
 - 🎙️ [**GitHub Copilot CLI & AI Agents**](https://www.youtube.com/watch?v=3lkcGkG8Vxg) — Microsoft Reactor · 2026
-- 🎙️ [**Innovaciones clave en Microsoft Fabric & Microsoft Foundry**](https://www.youtube.com/watch?v=lKeGHSiPMw0) — Microsoft Reactor · 2026
-- 🎙️ [**Crea tus propios Agentes de IA con Azure AI Foundry**](https://www.youtube.com/watch?v=dklTcCMSLsU) — Microsoft Reactor · 2026
-- 📺 [**.NET AI Community Standup — Ignite Highlights + Custom Avatar Deep Dive**](https://www.youtube.com/live/QLeFHFGLwa8) — official `dotnet` channel · 2025 — live deep dive of [AI-Custom-Avatar](https://github.com/ppiova/AI-Custom-Avatar) (.NET 10 + Blazor + Aspire)
-- 🧪 **Lab Proctor** — [Microsoft Ignite 2025](https://www.linkedin.com/posts/ppiova_msignite-microsoftfoundry-aiagents-activity-7397466189163065344-SpNC/) & [Microsoft Build 2025](https://www.linkedin.com/posts/lbugnion_so-this-week-was-intense-my-team-produced-activity-7332058591065018369-JmU2/) · LAB324: Azure AI Foundry
+- 📺 [**.NET AI Community Standup — Ignite Highlights + Custom Avatar Deep Dive**](https://www.youtube.com/live/QLeFHFGLwa8) — official `dotnet` channel · 2025 · with Bruno Capuano — live deep dive of [AI-Custom-Avatar](https://github.com/ppiova/AI-Custom-Avatar) (.NET 10 + Blazor + Aspire)
+- 🧪 **Lab Proctor** — Microsoft Ignite 2024 (LAB402) · [Microsoft Build 2025](https://www.linkedin.com/posts/lbugnion_so-this-week-was-intense-my-team-produced-activity-7332058591065018369-JmU2/) (LAB324) · [Microsoft Ignite 2025](https://www.linkedin.com/posts/ppiova_msignite-microsoftfoundry-aiagents-activity-7397466189163065344-SpNC/) (LAB571)
 - 🎤 [**Global AI Bootcamp 2025 — Buenos Aires Keynote**](https://www.youtube.com/live/8_t0GO-PJgk) — 2025
 
 <details>
@@ -226,8 +212,8 @@ Regular speaker at **Microsoft Reactor**, Microsoft Ignite, Microsoft Build and 
 - 📘 [**Los Fundamentos de la IA Generativa en Azure**](https://www.youtube.com/watch?v=L1WvaVA4ftc) — 2025
 
 *IA + .NET — Reactor LATAM series*
-- 🧩 [**IA y .NET LATAM — Episodio 2**](https://www.youtube.com/live/kOLJlpqIO2o) — 2025
-- 🧩 [**IA y .NET LATAM — Episodio 4**](https://www.youtube.com/live/jeC3VZLoJWU) — 2025
+- 🧩 [**IA y .NET LATAM — Episodio 2**](https://www.youtube.com/live/kOLJlpqIO2o) — 2024
+- 🧩 [**IA y .NET LATAM — Episodio 4**](https://www.youtube.com/live/jeC3VZLoJWU) — 2024
 
 *Dev & AI tooling*
 - 🛠️ [**VS Code Dev Days LATAM**](https://www.youtube.com/watch?v=O7jFJ38PQsQ) — 2025
@@ -239,7 +225,8 @@ Regular speaker at **Microsoft Reactor**, Microsoft Ignite, Microsoft Build and 
 
 ### Microsoft Ignite & Build
 - 🧪 **Lab Proctor** — Microsoft Ignite 2024 · [LAB402-R1: Multimodal Generative AI](https://www.linkedin.com/posts/aliciamoniz_msignite-ugcPost-7265116994973179905-VssH)
-- Contributor — [Microsoft Build 2025](https://build.microsoft.com) · [Microsoft Ignite 2025](https://ignite.microsoft.com)
+- 🧪 **Lab Proctor** — Microsoft Build 2025 · LAB324: Multimodal Models and Agents in Azure AI Foundry
+- 🧪 **Lab Proctor** — Microsoft Ignite 2025 · LAB571: Build a Pizza Ordering Agent with Azure AI Foundry and MCP
 
 ### Community & Conferences
 - 🎤 [**AgentCon Córdoba**](https://www.linkedin.com/posts/ppiova_ai-agents-azure-activity-7374822413731082240-yi98) · Co-organizer & speaker — 2025
@@ -266,24 +253,12 @@ Full technical series on **[dev.to](https://dev.to/ppiova)** and **[LinkedIn](ht
 
 ---
 
-## 🤝 Open Source Contributions
-
-Contributor to Microsoft and community OSS projects around AI and Agents, including:
-
-- [`microsoft/agent-framework`](https://github.com/microsoft/agent-framework)
-- [`microsoft/ai-agents-for-beginners`](https://github.com/microsoft/ai-agents-for-beginners)
-- [`github/awesome-copilot`](https://github.com/github/awesome-copilot)
-- [`microsoft/edgeai-for-beginners`](https://github.com/microsoft/edgeai-for-beginners)
-
----
-
 ## 🎓 Workshops & Engagements
 
 Available for:
 
 - **Hands-on workshops** — Azure AI Foundry · Agent Framework · MCP · Docker supply chain for AI
 - **Conference talks & keynotes** — GenAI, Agents, secure container delivery
-- **Advisory** — enterprise GenAI adoption, AI Center of Excellence setup
 
 📫 **Reach out:** [LinkedIn](https://www.linkedin.com/in/ppiova/) · [X / Twitter](https://twitter.com/ppiova)
 
