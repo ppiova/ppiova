@@ -6,6 +6,8 @@
 
 Microsoft MVP in AI · 🐳 Docker Captain · Director of AI @ OZ Digital · Community Leader · Author
 
+[Pablo Piovano · Microsoft MVP & Docker Captain](https://pablitopiova.github.io/)
+
 [![Microsoft MVP](https://img.shields.io/badge/Microsoft-MVP_in_AI-0078D4?logo=microsoft&logoColor=white)](https://mvp.microsoft.com/en-us/PublicProfile/5004753)
 [![Docker Captain](https://img.shields.io/badge/Docker-Captain-2496ED?logo=docker&logoColor=white)](https://www.docker.com/contributors/pablo-piovano/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Pablo_Piovano-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ppiova/)
@@ -73,6 +75,9 @@ Microsoft MVP in AI · 🐳 Docker Captain · Director of AI @ OZ Digital · Com
 🔹 **[microsoft-foundry-throttling-samples](https://github.com/ppiova/microsoft-foundry-throttling-samples)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/microsoft-foundry-throttling-samples?style=flat&label=%E2%98%85)
 Your agent will get a 429. Throttling, bounded retries and pacing on Microsoft Foundry — Python and C# / .NET 10, a local simulator UI and Bicep.
 
+🔹 **[foundry-field-notes-labs](https://github.com/ppiova/foundry-field-notes-labs)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/foundry-field-notes-labs?style=flat&label=%E2%98%85)
+Interactive Microsoft Foundry field guides and hands-on .NET labs with reproducible offline paths, validated outputs and human review.
+
 🔹 **[mai-foundry-demos](https://github.com/ppiova/mai-foundry-demos)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/mai-foundry-demos?style=flat&label=%E2%98%85)
 Offline-first Streamlit demos for MAI models on Microsoft Foundry, with explicit LIVE/FALLBACK labels, API verification notes and Bicep infrastructure.
 
@@ -80,6 +85,9 @@ Offline-first Streamlit demos for MAI models on Microsoft Foundry, with explicit
 
 🔹 **[mcp-servers-microsoft-ecosystem](https://github.com/ppiova/mcp-servers-microsoft-ecosystem)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/mcp-servers-microsoft-ecosystem?style=flat&label=%E2%98%85)
 Community-curated catalog of **MCP servers** across the Microsoft ecosystem (Azure, M365, Fabric, Power Platform, GitHub, Copilot Studio) — complements the official [`microsoft/mcp`](https://github.com/microsoft/mcp) with community implementations, clients, starters and security guidance.
+
+🔹 **[three-memories-one-question](https://github.com/ppiova/three-memories-one-question)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/three-memories-one-question?style=flat&label=%E2%98%85)
+Compare file, vector and graph memory for an AI agent through the same questions — a runnable experiment you can try with one Docker command and no API keys.
 
 🔹 **[AgentFrameworkDemos](https://github.com/ppiova/AgentFrameworkDemos)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/AgentFrameworkDemos?style=flat&label=%E2%98%85)
 AI agents, orchestration and real-world patterns with Microsoft Agent Framework on .NET.
@@ -101,6 +109,9 @@ Azure AI Avatar Agent on .NET 10 + Blazor + .NET Aspire — Speech-to-Text, Azur
 
 🔹 **[VMAzureApp — Cloud VM Manager for Windows](https://github.com/ppiova/VMAzureApp)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/VMAzureApp?style=flat&label=%E2%98%85) &nbsp;[![Microsoft Store](https://img.shields.io/badge/Microsoft_Store-Get_it-0078D4?logo=microsoft&logoColor=white)](https://apps.microsoft.com/detail/9ngrmhhvcv4b)
 Manage Azure VMs across all your subscriptions without opening the portal — start / stop / restart / hibernate with bulk actions, local scheduling and real-time power-state monitoring. WPF on .NET 10 with Entra ID sign-in, shipped as MSIX through GitHub Actions. [**Get it from the Microsoft Store**](https://apps.microsoft.com/detail/9ngrmhhvcv4b).
+
+🔹 **[AzureCreditsApp — Cloud Credits Manager](https://github.com/ppiova/AzureCreditsApp)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/AzureCreditsApp?style=flat&label=%E2%98%85)
+Track Azure credits, subscriptions and budget alerts across Microsoft accounts from a Windows desktop app.
 
 
 ### 🐳 Docker-first series — Microsoft Agent Framework
