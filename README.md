@@ -39,7 +39,7 @@ Microsoft MVP in AI · 🐳 Docker Captain · Director of AI @ OZ Digital · Com
 | 🏅 **Microsoft MVP in AI** | [Public profile](https://mvp.microsoft.com/en-us/PublicProfile/5004753) |
 | 🐳 **Docker Captain** | [Docker profile](https://www.docker.com/contributors/pablo-piovano/) — recognized for expertise in containers & secure software supply chain |
 | 📘 **Author** | [AI-102 Certification Guide](https://a.co/d/0hJv775S) — Amazon |
-| 🎤 **Community Leader** | Organizer at [.NET Baires](https://www.meetup.com/es-es/net-baires/), one of LATAM's largest .NET & AI communities — co-organizer of AgentCon Córdoba, VS Code Dev Days and Global Azure Latino |
+| 🎤 **Community Leader** | Organizer at [.NET Baires](https://www.meetup.com/es-es/net-baires/), one of LATAM's largest .NET & AI communities — co-organizer of AgentCon Córdoba, VS Code Dev Days, Global Azure Latino and [Global AI Sarasota](https://globalai.community/chapters/sarasota) |
 | 💼 **Director of AI** | [OZ Digital Consulting](https://followoz.com/) — leading the AI Center of Excellence and enterprise GenAI adoption |
 
 ---
