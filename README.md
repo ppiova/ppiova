@@ -70,24 +70,33 @@ Microsoft MVP in AI · 🐳 Docker Captain · Director of AI @ OZ Digital · Com
 
 ## 📌 Featured Work
 
-### 🏭 AI in production
+🔹 **[three-memories-one-question](https://github.com/ppiova/three-memories-one-question)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/three-memories-one-question?style=flat&label=%E2%98%85)
+Compare file, vector and graph memory for an AI agent through the same questions — a runnable experiment you can try with one Docker command and no API keys.
 
 🔹 **[microsoft-foundry-throttling-samples](https://github.com/ppiova/microsoft-foundry-throttling-samples)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/microsoft-foundry-throttling-samples?style=flat&label=%E2%98%85)
 Your agent will get a 429. Throttling, bounded retries and pacing on Microsoft Foundry — Python and C# / .NET 10, a local simulator UI and Bicep.
 
+🔹 **[mcp-servers-microsoft-ecosystem](https://github.com/ppiova/mcp-servers-microsoft-ecosystem)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/mcp-servers-microsoft-ecosystem?style=flat&label=%E2%98%85)
+Community catalog plus Docker-first community implementations of **MCP servers** across Azure, Microsoft 365, Fabric, Power Platform, GitHub and Copilot Studio — with clients, starters and security guidance.
+
 🔹 **[foundry-field-notes-labs](https://github.com/ppiova/foundry-field-notes-labs)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/foundry-field-notes-labs?style=flat&label=%E2%98%85)
-Interactive Microsoft Foundry field guides and hands-on .NET labs with reproducible offline paths, validated outputs and human review.
+Interactive [Microsoft Foundry field guides](https://ppiova.github.io/foundry-field-notes-labs/) and hands-on .NET labs with reproducible offline paths, validated outputs and human review.
+
+🔹 **[docker-model-runner-lab](https://github.com/ppiova/docker-model-runner-lab)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/docker-model-runner-lab?style=flat&label=%E2%98%85)
+Run LLMs locally with **Docker Model Runner**, an OpenAI-compatible API, .NET and Docker Compose — no cloud or API keys required.
+
+🔹 **[claude-foundry-demo](https://github.com/ppiova/claude-foundry-demo)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/claude-foundry-demo?style=flat&label=%E2%98%85)
+Explore Claude on Microsoft Foundry with the Anthropic SDK, streaming, tool use, a Microsoft Agent Framework agent, a custom MCP server and a live dashboard.
+
+<details>
+<summary>📚 <b>More projects</b></summary>
+
+### 🏭 More Microsoft Foundry projects
 
 🔹 **[mai-foundry-demos](https://github.com/ppiova/mai-foundry-demos)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/mai-foundry-demos?style=flat&label=%E2%98%85)
 Offline-first Streamlit demos for MAI models on Microsoft Foundry, with explicit LIVE/FALLBACK labels, API verification notes and Bicep infrastructure.
 
 ### 🔌 Agents & MCP
-
-🔹 **[mcp-servers-microsoft-ecosystem](https://github.com/ppiova/mcp-servers-microsoft-ecosystem)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/mcp-servers-microsoft-ecosystem?style=flat&label=%E2%98%85)
-Community-curated catalog of **MCP servers** across the Microsoft ecosystem (Azure, M365, Fabric, Power Platform, GitHub, Copilot Studio) — complements the official [`microsoft/mcp`](https://github.com/microsoft/mcp) with community implementations, clients, starters and security guidance.
-
-🔹 **[three-memories-one-question](https://github.com/ppiova/three-memories-one-question)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/three-memories-one-question?style=flat&label=%E2%98%85)
-Compare file, vector and graph memory for an AI agent through the same questions — a runnable experiment you can try with one Docker command and no API keys.
 
 🔹 **[AgentFrameworkDemos](https://github.com/ppiova/AgentFrameworkDemos)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/AgentFrameworkDemos?style=flat&label=%E2%98%85)
 AI agents, orchestration and real-world patterns with Microsoft Agent Framework on .NET.
@@ -104,7 +113,6 @@ Enterprise-grade Azure OpenAI auth with Entra ID — production-ready patterns.
 🔹 **[AI-Custom-Avatar](https://github.com/ppiova/AI-Custom-Avatar)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/AI-Custom-Avatar?style=flat&label=%E2%98%85)
 Azure AI Avatar Agent on .NET 10 + Blazor + .NET Aspire — Speech-to-Text, Azure OpenAI and a talking avatar with synchronized lip-sync. Built with [Bruno Capuano](https://github.com/elbruno).
 
-
 ### 🪟 Published on the Microsoft Store
 
 🔹 **[VMAzureApp — Cloud VM Manager for Windows](https://github.com/ppiova/VMAzureApp)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/VMAzureApp?style=flat&label=%E2%98%85) &nbsp;[![Microsoft Store](https://img.shields.io/badge/Microsoft_Store-Get_it-0078D4?logo=microsoft&logoColor=white)](https://apps.microsoft.com/detail/9ngrmhhvcv4b)
@@ -112,7 +120,6 @@ Manage Azure VMs across all your subscriptions without opening the portal — st
 
 🔹 **[AzureCreditsApp — Cloud Credits Manager](https://github.com/ppiova/AzureCreditsApp)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/AzureCreditsApp?style=flat&label=%E2%98%85)
 Track Azure credits, subscriptions and budget alerts across Microsoft accounts from a Windows desktop app.
-
 
 ### 🐳 Docker-first series — Microsoft Agent Framework
 
@@ -125,15 +132,12 @@ Polyglot compose: Python **FastMCP** server + .NET Agent Framework client, conne
 🔹 **[ai-agents-compose-stack](https://github.com/ppiova/ai-agents-compose-stack)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/ai-agents-compose-stack?style=flat&label=%E2%98%85)
 Multi-agent workflow (Researcher → Writer) with Microsoft Agent Framework, **OpenTelemetry + Aspire Dashboard** observability — fully in Docker Compose. Published image ships multi-arch with SBOM + SLSA provenance.
 
-
-### 🐳 Docker Model Runner — run LLMs locally
-
-🔹 **[docker-model-runner-lab](https://github.com/ppiova/docker-model-runner-lab)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/docker-model-runner-lab?style=flat&label=%E2%98%85)
-Hands-on lab for **Docker Model Runner** — run LLMs locally behind an OpenAI-compatible API with .NET and Docker Compose. No cloud, no API keys, nothing leaves your machine.
+### 🐳 More Docker Model Runner examples
 
 🔹 **[docker-model-runner-multi-sdk-demo](https://github.com/ppiova/docker-model-runner-multi-sdk-demo)** &nbsp;![stars](https://img.shields.io/github/stars/ppiova/docker-model-runner-multi-sdk-demo?style=flat&label=%E2%98%85)
 One endpoint, three SDKs: DMR serves the same local model through **OpenAI, Anthropic and Ollama** formats on a single port — dev/prod parity with Microsoft Foundry, six runnable Python + .NET examples.
 
+</details>
 
 ---
 
